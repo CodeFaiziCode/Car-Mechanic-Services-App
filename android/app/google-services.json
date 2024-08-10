@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "744959596910",
+    "project_id": "car-fix-up",
+    "storage_bucket": "car-fix-up.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744959596910:android:ef42e5ebddd31fbcea897f",
+        "android_client_info": {
+          "package_name": "com.example.car_fix_up"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArctudyOOHp9lUWyIbVcpSCUI2RttJVoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

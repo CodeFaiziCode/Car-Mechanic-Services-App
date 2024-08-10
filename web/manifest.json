@@ -1,6 +1,6 @@
 {
-    "name": "car_mechanic_app",
-    "short_name": "car_mechanic_app",
+    "name": "car_fix_up",
+    "short_name": "car_fix_up",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
