@@ -5,7 +5,7 @@ import 'package:car_fix_up/views/User/dashboard/dashboard..dart';
 import 'package:car_fix_up/views/components/onBoarding_screen.dart';
 import 'package:car_fix_up/views/components/splash_screen.dart';
 import 'package:car_fix_up/views/User/home/home_view.dart';
-import 'package:car_fix_up/views/User/sos-video-call/sos_video_call_screen.dart';
+// import 'package:car_fix_up/views/User/sos-video-call/sos_video_call_screen.dart';
 import 'package:get/get.dart';
 
 class AppRoutes {
@@ -47,14 +47,14 @@ class AppRoutes {
         transition: Transition.fadeIn,
         transitionDuration: const Duration(milliseconds: 500),
       ),
-      GetPage(
-        name: RouteName.videoCall,
-        page: (() => SosVideoCalScreem(
-              callId: Get.arguments,
-            )),
-        transition: Transition.fadeIn,
-        transitionDuration: const Duration(milliseconds: 500),
-      ),
+      // GetPage(
+      //   name: RouteName.videoCall,
+      //   page: (() => SosVideoCalScreem(
+      //         callId: Get.arguments,
+      //       )),
+      //   transition: Transition.fadeIn,
+      //   transitionDuration: const Duration(milliseconds: 500),
+      // ),
       GetPage(
         name: RouteName.chat,
         page: (() => const ChatView()),
